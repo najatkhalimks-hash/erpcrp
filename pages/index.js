@@ -206,7 +206,7 @@ export default function Home() {
                   <table className="w-full text-sm border-collapse">
                     <thead>
                       <tr style={{ background: '#1F3864' }}>
-                        {['Angle d'analyse','EVM Classique','EVM+ Révèle','Interprétation'].map(h => (
+                        {["Angle d'analyse","EVM Classique","EVM+ Révèle","Interprétation"].map(h => (
                           <th key={h} className="px-4 py-2 text-left text-xs text-white/70 font-semibold"
                               style={{ borderBottom: '1px solid rgba(255,255,255,0.1)' }}>{h}</th>
                         ))}
